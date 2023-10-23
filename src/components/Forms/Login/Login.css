@@ -1,0 +1,18 @@
+.section {
+    width: 51%;
+    align-self: center;
+    justify-self: center;
+}
+
+    .form {
+        width: 100%;
+    }
+
+    .btn {
+        border: none;
+        color: white;
+        font-weight: bold;
+        background: #1F99DE;
+        border-radius: 3px;
+        width: inherit;
+    }

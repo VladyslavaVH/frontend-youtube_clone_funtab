@@ -1,0 +1,116 @@
+.header {
+    width: 100vw;
+    height: 10vh;
+    background: #fdfdfd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burgerMenu {
+    width: 10vh;
+    height: 10vh;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+
+.notAuthUserBtn {
+    background: #f1f1f1;
+    border-radius: 30%;
+}
+
+.profileSvg {
+    margin: 1px 24px;
+    padding: 0;
+    border-radius: 50px;
+    border: 1px solid transparent;
+}
+
+.profileSvg:hover {
+    cursor: pointer;
+    border-radius: 50px;
+    border: 1px solid #1F99DE;
+}
+
+.burgerSvg {
+    width: 24px;
+    height: 24px;
+}
+
+.plusSvg {
+    margin-right: 10px;
+}
+
+.endSvg:hover {
+    cursor: pointer;
+}
+
+.appBar {
+    display: flex;
+    align-content: center;
+    justify-content: stretch;
+}
+
+@media screen and (max-width: 1500px) {
+    .profileSvg {
+        width: 100px;
+        height: 40px;
+    }
+
+    .profileSvg:hover {
+        cursor: pointer;
+        border-radius: 90px;
+        border: 1px solid #1F99DE;
+    }
+
+    .logoSvg {
+        width: 95px;
+        height: 30px;
+        min-width: 95px;
+        min-height: 30px;
+    }
+
+    .burgerSvg {
+        width: 20px;
+        height: 20px;
+        min-width: 20px;
+        min-height: 20px;
+    }
+
+    .endSvg {
+        padding: 3px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .appBar {
+        height: max-content;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .justLogoSvg {
+        margin: 10px;
+        width: 24px;
+        height: 24px;
+        min-width: 24px;
+        min-height: 24px;
+    }
+
+    .profileSvg {
+        margin-right: 10px;
+        width: 100px;
+        height: 35px;
+        margin: 0;
+    }
+}
